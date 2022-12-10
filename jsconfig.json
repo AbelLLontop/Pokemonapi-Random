@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "baseUrl": "./src",
+    "paths": {
+      // "@/*": ["./*"],
+      "@components/common/*": ["./components/common/*"],
+      "@components/layouts/*": ["./components/layouts/*"],
+      "@components/router/*": ["./components/router/*"],
+      "@components/ui/*": ["./components/ui/*"],
+      "@components/views/*": ["./components/views/*"],
+      "@services/*": ["./services/*"],
+      "@context/*": ["./context/*"],
+      "@providers/*": ["./providers/*"],
+      "@reducers/*": ["./reducers/*"],
+      "@config/*": ["./config/*"],
+    },
+  },
+}
